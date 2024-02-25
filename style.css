@@ -1,0 +1,54 @@
+#big{
+    width:300px;
+    height: 400px;
+    margin:70px 0px 0px 50px;
+    border-radius: 20px;
+}
+#srh{
+    width:400px;
+    height:35px; 
+    background-color: rgb(30, 28, 28);
+    margin-left: 70px;
+    border-radius: 10px;
+    color:rgb(147, 145, 145)
+}
+#contentcontain{
+    height:500px;
+    background-color:rgb(178, 178, 178);
+}
+#end{
+    width:570px;
+    height:100px;
+     background-color: rgb(13, 13, 13);
+     margin-left: 15px; 
+     border-radius: 10px;
+}
+
+@media screen and (max-width:1000px)
+{
+#contentcontain{
+    height: 1000px;
+}
+#big{
+    width:350px;
+    height: 500px;
+    margin:50px 0px 0px 20px;
+}
+#one #two #three{
+    width:30px;
+    height:50px;
+    margin: 5px 5px 5px 5px;
+
+}
+#srh{
+    width:450px;
+    margin:0px 0px 0px 20px;
+}
+#end{
+    width:450px;
+    height:100px;
+     background-color: rgb(13, 13, 13);
+     margin-left: 15px; 
+     border-radius: 10px;
+}
+}
